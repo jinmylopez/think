@@ -6,6 +6,7 @@
     $('.modal-trigger').leanModal();
     $('.carousel').carousel();
     
+    $('h2').append('<a href="#top" class="gototop">Subir</a>');
     linkInterno = $('a[href^="#"]');
     linkInterno.on('click',function(e) {
       e.preventDefault();
