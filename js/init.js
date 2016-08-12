@@ -6,6 +6,7 @@
     $('.modal-trigger').leanModal();
     $('.carousel').carousel();
     
+    linkInterno = $('a[href^="#"]');
     linkInterno.on('click',function(e) {
       e.preventDefault();
       var href = $(this).attr('href');
